@@ -8,7 +8,7 @@ const { username, room } = Qs.parse(location.search, {
   ignoreQueryPrefix: true,
 });
 
-const socket = io();
+const socket = io("https://chatroom-backend-giada.herokuapp.com/");
 
 // Join chatroom
 socket.emit('joinRoom', { username, room });
