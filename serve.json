@@ -1,0 +1,19 @@
+{
+
+    "public": "dist/",
+  
+    "cleanUrls": true,
+  
+    "rewrites": [
+  
+      {
+  
+        "source": "/**",
+  
+        "destination": "/home.html"
+  
+      }
+  
+    ]
+  
+  }
